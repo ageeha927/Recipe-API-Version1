@@ -1,0 +1,580 @@
+[
+    {
+      "id": 1,
+      "title": "Chicken Tomato Pasta",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "200g" },
+        { "ingredient_id": 8, "quantity": "150g" },
+        { "ingredient_id": 3, "quantity": "100g" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook pasta. Sauté garlic and onion, add chicken, tomatoes, and spices. Combine with pasta."
+    },
+    {
+      "id": 2,
+      "title": "Garlic Chicken and Rice",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "250g" },
+        { "ingredient_id": 2, "quantity": "1 cup" },
+        { "ingredient_id": 5, "quantity": "3 cloves" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté garlic and onion, add chicken, and cook until browned. Add rice and water, simmer until done."
+    },
+    {
+      "id": 3,
+      "title": "Caprese Salad",
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": "2" },
+        { "ingredient_id": 7, "quantity": "1 bunch" },
+        { "ingredient_id": 9, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Slice tomatoes and cheese, layer with basil. Drizzle with olive oil and season with salt."
+    },
+    {
+      "id": 4,
+      "title": "Vegetable Stir-Fry",
+      "ingredients": [
+        { "ingredient_id": 12, "quantity": "1 cup" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 11, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté garlic and onion, add vegetables, stir-fry until cooked. Season with salt and pepper."
+    },
+    {
+      "id": 5,
+      "title": "Beef Tacos",
+      "ingredients": [
+        { "ingredient_id": 15, "quantity": "300g" },
+        { "ingredient_id": 26, "quantity": "4" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 11, "quantity": "to taste" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook beef with onions, season with salt and pepper. Serve in tortillas."
+    },
+    {
+      "id": 6,
+      "title": "Pasta Primavera",
+      "ingredients": [
+        { "ingredient_id": 8, "quantity": "200g" },
+        { "ingredient_id": 3, "quantity": "100g" },
+        { "ingredient_id": 18, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook pasta. Sauté vegetables in olive oil, mix with pasta."
+    },
+    {
+      "id": 7,
+      "title": "Chickpea Salad",
+      "ingredients": [
+        { "ingredient_id": 37, "quantity": "1 can" },
+        { "ingredient_id": 12, "quantity": "1 cup" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 11, "quantity": "to taste" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Mix all ingredients in a bowl. Season to taste."
+    },
+    {
+      "id": 8,
+      "title": "Spinach and Feta Omelette",
+      "ingredients": [
+        { "ingredient_id": 17, "quantity": "3" },
+        { "ingredient_id": 18, "quantity": "1 cup" },
+        { "ingredient_id": 9, "quantity": "50g" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Whisk eggs, pour into a pan, add spinach and feta, cook until set."
+    },
+    {
+      "id": 9,
+      "title": "Stuffed Bell Peppers",
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": "4" },
+        { "ingredient_id": 15, "quantity": "300g" },
+        { "ingredient_id": 2, "quantity": "1 cup" },
+        { "ingredient_id": 9, "quantity": "100g" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Stuff peppers with a mixture of meat, rice, and cheese. Bake until cooked."
+    },
+    {
+      "id": 10,
+      "title": "Garlic Butter Shrimp",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "300g" },
+        { "ingredient_id": 5, "quantity": "3 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 11, "quantity": "to taste" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté garlic in butter, add shrimp, cook until pink. Season to taste."
+    },
+    {
+      "id": 11,
+      "title": "Banana Smoothie",
+      "ingredients": [
+        { "ingredient_id": 25, "quantity": "2" },
+        { "ingredient_id": 9, "quantity": "200ml" },
+        { "ingredient_id": 27, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Blend all ingredients until smooth."
+    },
+    {
+      "id": 12,
+      "title": "Tomato Basil Soup",
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": "800g" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 7, "quantity": "1 bunch" }
+      ],
+      "instructions": "Sauté onion and garlic, add tomatoes and basil, simmer, blend until smooth."
+    },
+    {
+      "id": 13,
+      "title": "Baked Zucchini Fries",
+      "ingredients": [
+        { "ingredient_id": 20, "quantity": "2" },
+        { "ingredient_id": 29, "quantity": "1 cup" },
+        { "ingredient_id": 11, "quantity": "to taste" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Slice zucchini, coat with flour, bake until crispy."
+    },
+    {
+      "id": 14,
+      "title": "Fruit Salad",
+      "ingredients": [
+        { "ingredient_id": 22, "quantity": "1" },
+        { "ingredient_id": 23, "quantity": "1" },
+        { "ingredient_id": 24, "quantity": "1" },
+        { "ingredient_id": 25, "quantity": "1" },
+        { "ingredient_id": 27, "quantity": "1 tbsp" }
+      ],
+      "instructions": "Chop fruits, mix, and drizzle with honey."
+    },
+    {
+      "id": 15,
+      "title": "Egg Fried Rice",
+      "ingredients": [
+        { "ingredient_id": 2, "quantity": "2 cups" },
+        { "ingredient_id": 17, "quantity": "2" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 11, "quantity": "to taste" }
+      ],
+      "instructions": "Cook rice, scramble eggs, mix with rice and sautéed onion."
+    },
+    {
+      "id": 16,
+      "title": "Chicken Curry",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "500g" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté onion and garlic, add chicken and curry spices, simmer until cooked."
+    },
+    {
+      "id": 17,
+      "title": "Quinoa Salad",
+      "ingredients": [
+        { "ingredient_id": 2, "quantity": "1 cup" },
+        { "ingredient_id": 12, "quantity": "1 cup" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook quinoa, mix with vegetables and dressing."
+    },
+    {
+      "id": 18,
+      "title": "Stuffed Mushrooms",
+      "ingredients": [
+        { "ingredient_id": 21, "quantity": "500g" },
+        { "ingredient_id": 9, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Stuff mushrooms with cheese, bake until golden."
+    },
+    {
+      "id": 19,
+      "title": "Pumpkin Soup",
+      "ingredients": [
+        { "ingredient_id": 22, "quantity": "500g" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté onion and garlic, add pumpkin, simmer, and blend."
+    },
+    {
+      "id": 20,
+      "title": "Pesto Pasta",
+      "ingredients": [
+        { "ingredient_id": 8, "quantity": "200g" },
+        { "ingredient_id": 46, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook pasta, toss with pesto and olive oil."
+    },
+    {
+      "id": 21,
+      "title": "Tuna Salad",
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": "1 can" },
+        { "ingredient_id": 12, "quantity": "1 cup" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Mix all ingredients in a bowl."
+    },
+    {
+      "id": 22,
+      "title": "Fried Eggplant",
+      "ingredients": [
+        { "ingredient_id": 20, "quantity": "2" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Slice eggplant, fry until golden."
+    },
+    {
+      "id": 23,
+      "title": "Oven-Baked Salmon",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "400g" },
+        { "ingredient_id": 22, "quantity": "1" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Season salmon, bake until cooked through."
+    },
+    {
+      "id": 24,
+      "title": "Potato Salad",
+      "ingredients": [
+        { "ingredient_id": 14, "quantity": "500g" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 9, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Boil potatoes, mix with other ingredients."
+    },
+    {
+      "id": 25,
+      "title": "Homemade Hummus",
+      "ingredients": [
+        { "ingredient_id": 37, "quantity": "1 can" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "3 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Blend all ingredients until smooth."
+    },
+    {
+      "id": 26,
+      "title": "Baked Apples",
+      "ingredients": [
+        { "ingredient_id": 24, "quantity": "4" },
+        { "ingredient_id": 27, "quantity": "2 tbsp" },
+        { "ingredient_id": 28, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Core apples, fill with honey and sugar, bake until soft."
+    },
+    {
+      "id": 27,
+      "title": "Coconut Curry",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "300g" },
+        { "ingredient_id": 40, "quantity": "1 can" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook chicken with onion and garlic, add coconut milk, simmer."
+    },
+    {
+      "id": 28,
+      "title": "Cheesy Broccoli Bake",
+      "ingredients": [
+        { "ingredient_id": 19, "quantity": "300g" },
+        { "ingredient_id": 9, "quantity": "150g" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Bake broccoli with cheese until melted."
+    },
+    {
+      "id": 29,
+      "title": "Chicken Caesar Salad",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "200g" },
+        { "ingredient_id": 12, "quantity": "2 cups" },
+        { "ingredient_id": 9, "quantity": "50g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Grill chicken, mix with lettuce, cheese, and dressing."
+    },
+    {
+      "id": 30,
+      "title": "Chocolate Chip Cookies",
+      "ingredients": [
+        { "ingredient_id": 29, "quantity": "2 cups" },
+        { "ingredient_id": 28, "quantity": "1 cup" },
+        { "ingredient_id": 27, "quantity": "1/2 cup" },
+        { "ingredient_id": 30, "quantity": "1 tsp" },
+        { "ingredient_id": 28, "quantity": "2 cups" }
+      ],
+      "instructions": "Mix ingredients, scoop onto a baking sheet, bake until golden."
+    },
+    {
+      "id": 31,
+      "title": "Shrimp Tacos",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "200g" },
+        { "ingredient_id": 2, "quantity": "4" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 11, "quantity": "to taste" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook shrimp with onion, serve in tortillas."
+    },
+    {
+      "id": 32,
+      "title": "Carrot Cake",
+      "ingredients": [
+        { "ingredient_id": 14, "quantity": "2 cups" },
+        { "ingredient_id": 29, "quantity": "1 cup" },
+        { "ingredient_id": 28, "quantity": "1 cup" },
+        { "ingredient_id": 30, "quantity": "1 tsp" },
+        { "ingredient_id": 31, "quantity": "1 tsp" }
+      ],
+      "instructions": "Mix ingredients, pour into a cake pan, bake until done."
+    },
+    {
+      "id": 33,
+      "title": "Ratatouille",
+      "ingredients": [
+        { "ingredient_id": 3, "quantity": "2" },
+        { "ingredient_id": 20, "quantity": "1" },
+        { "ingredient_id": 19, "quantity": "1" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté vegetables, simmer until tender."
+    },
+    {
+      "id": 34,
+      "title": "French Toast",
+      "ingredients": [
+        { "ingredient_id": 26, "quantity": "4 slices" },
+        { "ingredient_id": 17, "quantity": "2" },
+        { "ingredient_id": 28, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Dip bread in egg mixture, fry until golden."
+    },
+    {
+      "id": 35,
+      "title": "Grilled Cheese Sandwich",
+      "ingredients": [
+        { "ingredient_id": 26, "quantity": "2 slices" },
+        { "ingredient_id": 9, "quantity": "2 slices" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Assemble sandwich, grill until cheese melts."
+    },
+    {
+      "id": 36,
+      "title": "BBQ Ribs",
+      "ingredients": [
+        { "ingredient_id": 16, "quantity": "500g" },
+        { "ingredient_id": 41, "quantity": "1/2 cup" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Marinate ribs, grill until tender."
+    },
+    {
+      "id": 37,
+      "title": "Sushi Rolls",
+      "ingredients": [
+        { "ingredient_id": 8, "quantity": "2 cups" },
+        { "ingredient_id": 12, "quantity": "1 cup" },
+        { "ingredient_id": 1, "quantity": "200g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Roll ingredients in sushi mat, slice."
+    },
+    {
+      "id": 38,
+      "title": "Chicken Alfredo",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "300g" },
+        { "ingredient_id": 8, "quantity": "200g" },
+        { "ingredient_id": 9, "quantity": "100g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Cook pasta, add chicken and sauce, mix well."
+    },
+    {
+      "id": 39,
+      "title": "Chocolate Mousse",
+      "ingredients": [
+        { "ingredient_id": 28, "quantity": "200g" },
+        { "ingredient_id": 9, "quantity": "100ml" },
+        { "ingredient_id": 30, "quantity": "2" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Melt chocolate, mix with whipped cream and egg whites."
+    },
+    {
+      "id": 40,
+      "title": "Lentil Soup",
+      "ingredients": [
+        { "ingredient_id": 37, "quantity": "1 cup" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté onion and garlic, add lentils and water, simmer until cooked."
+    },
+    {
+      "id": 41,
+      "title": "Peanut Butter Cookies",
+      "ingredients": [
+        { "ingredient_id": 29, "quantity": "1 cup" },
+        { "ingredient_id": 28, "quantity": "1 cup" },
+        { "ingredient_id": 27, "quantity": "1 cup" },
+        { "ingredient_id": 30, "quantity": "1 tsp" }
+      ],
+      "instructions": "Mix ingredients, scoop onto a baking sheet, bake until golden."
+    },
+    {
+      "id": 42,
+      "title": "Cauliflower Fried Rice",
+      "ingredients": [
+        { "ingredient_id": 42, "quantity": "1 head" },
+        { "ingredient_id": 17, "quantity": "2" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Pulse cauliflower, sauté with eggs and season."
+    },
+    {
+      "id": 43,
+      "title": "Smashed Avocado Toast",
+      "ingredients": [
+        { "ingredient_id": 26, "quantity": "2 slices" },
+        { "ingredient_id": 22, "quantity": "1" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Mash avocado, spread on toast, season to taste."
+    },
+    {
+      "id": 44,
+      "title": "Blueberry Muffins",
+      "ingredients": [
+        { "ingredient_id": 29, "quantity": "2 cups" },
+        { "ingredient_id": 43, "quantity": "1 cup" },
+        { "ingredient_id": 28, "quantity": "1/2 cup" },
+        { "ingredient_id": 30, "quantity": "1 tsp" }
+      ],
+      "instructions": "Mix ingredients, pour into muffin tin, bake until golden."
+    },
+    {
+      "id": 45,
+      "title": "Cabbage Stir-Fry",
+      "ingredients": [
+        { "ingredient_id": 35, "quantity": "1 head" },
+        { "ingredient_id": 4, "quantity": "1" },
+        { "ingredient_id": 5, "quantity": "2 cloves" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Sauté onion and garlic, add cabbage, stir-fry until tender."
+    },
+    {
+      "id": 46,
+      "title": "Vegetable Lasagna",
+      "ingredients": [
+        { "ingredient_id": 2, "quantity": "9 sheets" },
+        { "ingredient_id": 19, "quantity": "400g" },
+        { "ingredient_id": 9, "quantity": "200g" },
+        { "ingredient_id": 6, "quantity": "2 tbsp" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Layer lasagna sheets with vegetables and cheese, bake until bubbly."
+    },
+    {
+      "id": 47,
+      "title": "Honey Garlic Chicken",
+      "ingredients": [
+        { "ingredient_id": 1, "quantity": "500g" },
+        { "ingredient_id": 5, "quantity": "3 cloves" },
+        { "ingredient_id": 10, "quantity": "2 tbsp" },
+        { "ingredient_id": 11, "quantity": "1/4 cup" }
+      ],
+      "instructions": "Sauté chicken with garlic, add honey, and cook until caramelized."
+    },
+    {
+      "id": 48,
+      "title": "Zucchini Noodles",
+      "ingredients": [
+        { "ingredient_id": 20, "quantity": "2" },
+        { "ingredient_id": 6, "quantity": "1 tbsp" },
+        { "ingredient_id": 8, "quantity": "100g" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Spiralize zucchini, sauté briefly, toss with pesto."
+    },
+    {
+      "id": 49,
+      "title": "Apple Cinnamon Oatmeal",
+      "ingredients": [
+        { "ingredient_id": 24, "quantity": "1" },
+        { "ingredient_id": 9, "quantity": "1 cup" },
+        { "ingredient_id": 10, "quantity": "1 tsp" },
+        { "ingredient_id": 11, "quantity": "1 tbsp" }
+      ],
+      "instructions": "Cook oats with diced apple and cinnamon until creamy."
+    },
+    {
+      "id": 50,
+      "title": "Mango Chia Pudding",
+      "ingredients": [
+        { "ingredient_id": 31, "quantity": "1 cup" },
+        { "ingredient_id": 32, "quantity": "1/4 cup" },
+        { "ingredient_id": 10, "quantity": "to taste" }
+      ],
+      "instructions": "Mix chia seeds with mango puree, refrigerate overnight."
+    }
+  ]
+  
