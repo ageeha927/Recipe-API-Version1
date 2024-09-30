@@ -6,7 +6,7 @@
   "scripts": {
     "test": "api.js"
   },
-  "keywords": [],
+  "keywords": ["API", "food", "recipe", "sort", "search"],
   "author": "Audrey Geehan",
   "license": "MIT",
   "dependencies": {
