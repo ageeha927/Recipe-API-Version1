@@ -4,7 +4,7 @@
   "description": "",
   "main": "api.js",
   "scripts": {
-    "test": "api.js"
+    "test": "nodemon api.js"
   },
   "keywords": ["API", "food", "recipe", "sort", "search"],
   "author": "Audrey Geehan",
