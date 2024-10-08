@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe API Documentation</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Recipe API</h1>
+        <h2>Complete Documentation</h2>
+
+        <div class="endpoint">
+            <h3>Get All Recipes</h3>
+            <div class="api-url">
+                <span class="method get">GET</span>
+                <code>http://localhost:5000/api/recipes</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Returns a list of all available recipes.</p>
+            <h4>Response:</h4>
+            <div class="response">
+                <pre><code>[
+    {
+        "id": 1,
+        "title": "Chicken Tomato Pasta",
+        "ingredients": [
+            { "ingredient_id": 1, "quantity": "200g" },
+            { "ingredient_id": 8, "quantity": "150g" },
+            { "ingredient_id": 3, "quantity": "100g" },
+            { "ingredient_id": 4, "quantity": "1" },
+            { "ingredient_id": 5, "quantity": "2 cloves" },
+            { "ingredient_id": 6, "quantity": "2 tbsp" },
+            { "ingredient_id": 10, "quantity": "to taste" }
+        ],
+        "instructions": "Cook pasta. Sauté garlic and onion, add chicken, tomatoes, and spices. Combine with pasta."
+        },
+]</code></pre>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h3>Get Single Recipe</h3>
+            <div class="api-url">
+                <span class="method get">GET</span>
+                <code>http://localhost:5000/api/recipes/:recipeID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Returns a specific recipe by ID. Replace <span class="param">:recipeID</span> with the actual recipe ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Create New Recipe</h3>
+            <div class="api-url">
+                <span class="method post">POST</span>
+                <code>http://localhost:5000/api/recipes</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Creates a new recipe. Send a JSON object in the request body.</p>
+            <h4>Request Body:</h4>
+            <div class="response">
+                <pre><code>{
+    "title": "New Recipe",
+    "ingredients": ["ingredient1", "ingredient2"],
+    "instructions": "Directions"
+}</code></pre>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h3>Update Recipe</h3>
+            <div class="api-url">
+                <span class="method put">PUT</span>
+                <code>http://localhost:5000/api/recipes/:recipeID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Updates an existing recipe. Replace <span class="param">:recipeID</span> with the actual recipe ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Delete Recipe</h3>
+            <div class="api-url">
+                <span class="method delete">DELETE</span>
+                <code>http://localhost:5000/api/recipes/:recipeID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Deletes a specific recipe. Replace <span class="param">:recipeID</span> with the actual recipe ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Get All Ingredients</h3>
+            <div class="api-url">
+                <span class="method get">GET</span>
+                <code>http://localhost:5000/api/ingredients</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Returns a list of all available ingredients.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Get Single Ingredient</h3>
+            <div class="api-url">
+                <span class="method get">GET</span>
+                <code>http://localhost:5000/api/ingredients/:ingredientID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Returns a specific ingredient by ID. Replace <span class="param">:ingredientID</span> with the actual ingredient ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Create New Ingredient</h3>
+            <div class="api-url">
+                <span class="method post">POST</span>
+                <code>http://localhost:5000/api/ingredients</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Creates a new ingredient. Send a JSON object in the request body.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Update Ingredient</h3>
+            <div class="api-url">
+                <span class="method put">PUT</span>
+                <code>http://localhost:5000/api/ingredients/:ingredientID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Updates an existing ingredient. Replace <span class="param">:ingredientID</span> with the actual ingredient ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Delete Ingredient</h3>
+            <div class="api-url">
+                <span class="method delete">DELETE</span>
+                <code>http://localhost:5000/api/ingredients/:ingredientID</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Deletes a specific ingredient. Replace <span class="param">:ingredientID</span> with the actual ingredient ID.</p>
+        </div>
+
+        <div class="endpoint">
+            <h3>Search Recipes</h3>
+            <div class="api-url">
+                <span class="method get">GET</span>
+                <code>http://localhost:5000/api/v1/query?search=pasta&limit=5</code>
+                <button class="copy-btn">copy</button>
+            </div>
+            <p>Search for recipes with optional parameters:</p>
+            <ul>
+                <li><span class="param">search</span>: Filter recipes by title</li>
+                <li><span class="param">limit</span>: Limit the number of results</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        document.querySelectorAll('.copy-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const url = btn.previousElementSibling.textContent
+                navigator.clipboard.writeText(url)
+                const originalText = btn.textContent
+                btn.textContent = 'copied!'
+                setTimeout(() => {
+                    btn.textContent = originalText
+                }, 2000)
+            })
+        })
+
+        async function fetchRecipes() {
+            const response = await fetch('/api/recipes')
+            const recipes = await response.json()
+            const recipeList = document.getElementById('recipe-list')
+            recipes.forEach(recipe => {
+                const li = document.createElement('li')
+                li.textContent = recipe.title
+                recipeList.appendChild(li)
+            })
+        }
+        fetchRecipes()
+    </script>
+</body>
+</html>

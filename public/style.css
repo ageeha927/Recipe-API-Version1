@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #8B7355;
+    color: #332211;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #DEB887;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4A3728;
+}
+
+h2 {
+    font-size: 24px;
+    text-align: center;
+    font-weight: normal;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #5C4033;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4A3728;
+    border-bottom: 2px solid #8B7355;
+    padding-bottom: 10px;
+}
+
+.endpoint {
+    margin-bottom: 40px;
+}
+
+.api-url {
+    background-color: #F5DEB3;
+    padding: 15px;
+    border-radius: 5px;
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.method {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.get { background-color: #000000; color: white; }
+.post { background-color: #000000; color: white; }
+.put { background-color: #000000; color: white; }
+.delete { background-color: #000000; color: white; }
+
+.copy-btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8B7355;
+    color: #F5DEB3;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.response {
+    background-color: #F5DEB3;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+code {
+    font-family: monospace;
+}
+
+.param {
+    color: #8B4513;
+    font-weight: bold;
+}
+
+pre {
+    overflow-x: auto;
+}
